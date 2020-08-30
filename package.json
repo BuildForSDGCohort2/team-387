@@ -1,0 +1,19 @@
+{
+  "name": "team-387",
+  "version": "1.0.0",
+  "description": "CliquePay is a light weight money transfer for Facebook users",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuildForSDGCohort2/team-387.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuildForSDGCohort2/team-387/issues"
+  },
+  "homepage": "https://github.com/BuildForSDGCohort2/team-387#readme"
+}
