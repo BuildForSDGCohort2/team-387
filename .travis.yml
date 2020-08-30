@@ -6,6 +6,7 @@ services:
 cache:
   directories:
   - node_modules
+before_script:
+- npm ci
 script:
-- npm test
-- npm run coverage
+- npm run coverage --if-present
