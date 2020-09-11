@@ -15,7 +15,6 @@ const debug = require('debug')('server:server');
 /**
  * Create HTTP server.
  */
-
 const server = createServer(app);
 
 /**
