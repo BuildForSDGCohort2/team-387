@@ -13,7 +13,7 @@
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "core-js": "^3.6.5",
-    "cors": "",
+    "cors": "latest",
     "debug": "~2.6.9",
     "dotenv": "latest",
     "express": "~4.16.1",
@@ -23,18 +23,18 @@
     "pg-hstore": "^2.3.3",
     "regenerator-runtime": "^0.13.7",
     "sequelize": "^6.3.5",
-    "swagger-jsdoc": "",
-    "swagger-ui-express": ""
+    "swagger-jsdoc": "latest",
+    "swagger-ui-express": "latest"
   },
   "devDependencies": {
     "eslint": "^7.8.1",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
-    "@babel/cli": "",
-    "@babel/core": "",
-    "@babel/node": "",
-    "@babel/preset-env": "",
-    "@babel/register": "",
-    "coveralls": ""
+    "@babel/cli": "latest",
+    "@babel/core": "latest",
+    "@babel/node": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/register": "latest",
+    "coveralls": "latest"
   }
 }
