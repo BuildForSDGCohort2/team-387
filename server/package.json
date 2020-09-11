@@ -17,7 +17,7 @@
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "core-js": "^3.6.5",
-    "cors": "latest",
+    "cors": "^2.8.5",
     "debug": "~2.6.9",
     "dotenv": "latest",
     "express": "~4.16.1",
