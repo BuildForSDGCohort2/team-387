@@ -5,7 +5,7 @@ const swaggerDefinition = {
   info: {
     title: 'REST API for #BuildForSDG app named CliquePay', // Title of the documentation
     version: '1.0.0', // Version of the app
-    description: 'This is the REST API for a twitter clone app built for a test at Softcom', // short description of the app
+    description: 'This is the REST API for a #BuildForSG project called CliquePay', // short description of the app
   },
   servers: [
     { url: 'https://build-for-sdg-team-387.herokuapp.com/api/v1', description: 'Deployed server' },
