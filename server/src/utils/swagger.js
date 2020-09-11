@@ -8,7 +8,7 @@ const swaggerDefinition = {
     description: 'This is the REST API for a twitter clone app built for a test at Softcom', // short description of the app
   },
   servers: [
-    { url: '', description: 'Deployed server' },
+    { url: 'https://build-for-sdg-team-387.herokuapp.com/api/v1', description: 'Deployed server' },
     { url: 'http://localhost:5000/api/v1', description: 'Local development/testing server' },
   ],
   components: {
