@@ -1,5 +1,3 @@
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
 import express, { json, urlencoded } from 'express';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
@@ -17,7 +15,7 @@ app.use(json());
 app.use(urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use('/api-docs', SwaggerUI.serve, SwaggerUI.setup(swaggerSpec));
-app.use(cors);
+app.use(cors());
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
