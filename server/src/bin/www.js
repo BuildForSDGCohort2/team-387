@@ -5,6 +5,8 @@
  * Module dependencies.
  */
 
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 import { createServer } from 'http';
 import app from '../app';
 
@@ -13,7 +15,6 @@ const debug = require('debug')('server:server');
 /**
  * Create HTTP server.
  */
-
 const server = createServer(app);
 
 /**
