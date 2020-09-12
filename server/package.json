@@ -27,8 +27,8 @@
     "pg-hstore": "^2.3.3",
     "regenerator-runtime": "^0.13.7",
     "sequelize": "^6.3.5",
-    "swagger-jsdoc": "latest",
-    "swagger-ui-express": "latest"
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
   },
   "devDependencies": {
     "eslint": "^7.8.1",
